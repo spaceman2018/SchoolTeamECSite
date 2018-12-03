@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+/* フッター */
+#footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    clear: both;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+    padding: 10px;
+    color: #4b6cb7;
+    background-color: #fff;
+    font-family: "游ゴシック";
+    box-shadow: -2px -2px rgba(0,0,0,0.1);
+}

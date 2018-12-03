@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+#resetpass-link a{
+	float:right;
+	text-decoration:none;
+	color:#4b6cb7;
+	font-weight:bold;
+}
+
+#resetpass-link a:hover{
+	color:#E9967A;
+}
+
+#createuser-btn{
+	margin:auto;
+	margin-bottom:20px;
+	padding:15px;
+    position: relative;
+    text-align:center;
+    width:100%;
+    max-width:120px;
+    min-width:20%;
+    font-size:15px;
+    background: #4b6cb7;
+    border-radius: 4px;
+}
+
+#createuser-btn:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #4b6cb7;
+}
+
+#createuser-btn a{
+    min-width: 120px;
+    max-width: 100%;
+    font-size: 15px;
+    border-radius:4px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#ffffff;
+    font-size:120%;
+}
